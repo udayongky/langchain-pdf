@@ -61,7 +61,7 @@ docs = [
 lint = "pre-commit run --all-files"
 docs = "mkdocs serve"
 test = "pytest -v tests"
-
+# scripts for server
 init-db = "flask --app app.web init-db"
 files = "flask --app files.app run --debug --port 8050"
 dev = "flask --app app.web run --debug --port 8000"
