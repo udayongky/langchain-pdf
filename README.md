@@ -28,6 +28,7 @@ pdm venv activate
 
 # Setup
 
+- Create `uploads` folder in src\files
 - Start files server with `pdm run files`
 - In the `pdf` project, find the `.env` file and change the `UPLOAD_URL` line to the following: `UPLOAD_URL=http://127.0.0.1:8050`
 
